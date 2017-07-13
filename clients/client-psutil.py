@@ -4,7 +4,7 @@
 # 支持Python版本：2.6 to 3.5 (users of Python 2.4 and 2.5 may use 2.1.3 version)
 # 支持操作系统： Linux, Windows, OSX, Sun Solaris, FreeBSD, OpenBSD and NetBSD, both 32-bit and 64-bit architectures
 
-SERVER = "jk.runnings.club"
+SERVER = "jk5563.onlin.us"
 PORT = 35601
 USER = "USER"
 PASSWORD = "123456789"
