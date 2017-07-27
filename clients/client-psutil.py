@@ -6,7 +6,7 @@
 
 SERVER = "jk5563.onlin.us"
 PORT = 35601
-USER = "USER"
+USER = "user"
 PASSWORD = "123456789"
 INTERVAL = 1 # 更新间隔
 
