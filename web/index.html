@@ -9,8 +9,9 @@
 		<meta name="author" content="BotoX">
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
-		<link rel="stylesheet" href="css/dark.css" title="dark">
+		
 		<link rel="stylesheet" href="css/light.css" title="light">
+		<link rel="stylesheet" href="css/dark.css" title="dark">
 		<style>
 			body {
 				padding-top: 70px;
@@ -34,7 +35,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a href="#" class="navbar-brand">云监控</a>
+						<a href="https://my.yunxiao.us" class="navbar-brand">云监控</a>
 						
 					</div>
 					<div class="navbar-collapse collapse">
@@ -42,8 +43,10 @@
 							<li class="dropdown">
 								<a data-toggle="dropdown" class="dropdown-toggle" href="#">网页风格<b class="caret"></b></a>
 								<ul class="dropdown-menu">
+								    <li><a href="#" onclick="setActiveStyleSheet('light')">白天</a></li>
 									<li><a href="#" onclick="setActiveStyleSheet('dark')">黑夜</a></li>
-									<li><a href="#" onclick="setActiveStyleSheet('light')">白天</a></li>
+									
+									
 								</ul>
 							</li>
 						</ul>
@@ -70,17 +73,15 @@
 				<thead>
 				<tr>
 					<th id="status4" style="text-align: center;">状态</th>
-					<th id="name">节点名</th>
-					<th id="type">虚拟化</th>
-					<th id="host">站点</th>
+					<th id="name">服务器名称</th>
+					
+					
 					<th id="location">位置</th>
+					<th id="network">实时速度 ↓|↑</th>
 					<th id="uptime">在线时间</th>
 					<th id="load">负载</th>
-					<th id="network">实时速度 ↓|↑</th>
-					<th id="traffic">总流量 ↓|↑</th>
-					<th id="cpu">处理器</th>
-					<th id="ram">内存</th>
-					<th id="hdd">硬盘</th>
+					
+					
 				</tr>
 				</thead>
 				<tbody id="servers">
@@ -98,6 +99,6 @@
 		</div>
 		<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-		<script src="js/serverstatus.js"></script>
+		<script src="js/serverstatus4.js"></script>
 	</body>
 </html>
